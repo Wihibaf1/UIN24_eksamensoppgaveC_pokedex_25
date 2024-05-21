@@ -5,9 +5,9 @@ import {schemaTypes} from './schemaTypes'
 
 export default defineConfig({
   name: 'default',
-  title: 'Pokedex',
+  title: 'pokedex',
 
-  projectId: 'ghlwzb10',
+  projectId: 'lus1ncij',
   dataset: 'production',
 
   plugins: [structureTool(), visionTool()],
