@@ -27,7 +27,8 @@ export const team = defineType({
       name: "pokemons",
       of: [
         defineArrayMember({
-          type: "teamPokemon",
+          type: "reference",
+          to: [{ type: "pokemon" }],
         }),
       ],
     }),

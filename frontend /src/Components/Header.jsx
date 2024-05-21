@@ -13,7 +13,7 @@ function Header() {
             <div className="font-bold uppercase">UIN POKEDEX</div>
           </Link>
           <Link to={'/teams'} className="flex justify-center items-center text-black hover:no-underline hover:text-primary focus:text-black focus:no-underline">
-            <div className="font-bold uppercase">TEAMS</div>
+            <div className="font-bold uppercase">Teams</div>
           </Link>
         </div>
         <div className="col-span-12 sm:col-span-6">
